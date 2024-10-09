@@ -82,12 +82,20 @@
     padding: 1% 10%;
   }
   .navbar .logo {
-    width: 20%;
+    width: 15%;
+  }
+  .navbar .navbarIcon {
+    color: var(--Black);
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .navbar nav.hidden_nav{
+    display: none;
   }
   .navbar nav {
     width: 50%;
     position: absolute;
-    display: none;
+    /* display: none; */
     flex-direction: column;
     /* padding: 30px; */
     gap: unset;
