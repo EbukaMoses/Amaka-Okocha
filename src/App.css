@@ -1,0 +1,16 @@
+:root {
+  --Green: #c7ddcc;
+  --Black: #202020;
+  --Orange: #f4a462;
+  --White: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: var(--Black);
+  color: var(--White);
+}

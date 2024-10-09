@@ -1,0 +1,200 @@
+/* --------------- HERO SECTION CSS --------------  */
+.hero_card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.hero {
+  display: flex;
+  background: var(--Black);
+}
+.hero .leftside {
+  width: 40%;
+}
+.hero .leftside .heading {
+  color: var(--White);
+  margin-top: 40%;
+  margin-left: 27%;
+}
+.hero .rightside {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.hero .rightside img {
+  width: 100%;
+  /* height: 100vh; */
+}
+.hero_card .content {
+  position: absolute;
+  top: 290px;
+  left: 150px;
+  text-align: right;
+  color: var(--White);
+}
+.hero_card .content h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 100px;
+  text-shadow: 3px 0px 15px rgba(0, 0, 0, 0.38);
+}
+
+@media screen and (max-width: 1200px) {
+  .hero_card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  .hero {
+    flex-direction: column;
+    background: var(--Black);
+  }
+  .hero .leftside {
+    width: 100%;
+  }
+  .hero .leftside .heading {
+    color: var(--White);
+    margin: 5%;
+  }
+  .hero .leftside .heading h1 {
+    font-size: 24px;
+  }
+  .hero .leftside .heading .divider {
+    width: 290px;
+  }
+  .hero .rightside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .hero .rightside img {
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .hero_card .content {
+    position: unset;
+    top: unset;
+    left: unset;
+    text-align: right;
+    color: var(--White);
+    padding: 5%;
+  }
+  .hero_card .content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 3px 0px 15px rgba(0, 0, 0, 0.38);
+  }
+}
+
+/* --------------BIOGRAPHY SECTION CSS --------------  */
+.biography {
+  display: flex;
+}
+.biography .leftside {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.biography .leftside img {
+  width: 100%;
+}
+.biography .rightside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 0% 3%;
+}
+.biography .rightside .bio_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.biography .rightside h2 {
+  /* font-family: Playfair Display; */
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 59.99px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+.biography .rightside .divider {
+  width: 300px;
+}
+.biography .rightside p {
+  /* font-family: Lato; */
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  margin: 5% 0;
+}
+.biography .rightside .bio_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-device-width: 900px) and (max-device-width: 1200px) {
+}
+@media screen and (max-width: 1200px) {
+  .biography {
+    position: relative;
+    flex-direction: column;
+  }
+  .biography .leftside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .biography .leftside img {
+    /* position: absolute; */
+    margin-top: 80px;
+    width: 100%;
+  }
+  .biography .rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0% 3%;
+  }
+  .biography .rightside .bio_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;
+  }
+  .biography .rightside .bio_title .divider {
+    margin-top: unset;
+    width: 150px;
+  }
+  .biography .rightside h2 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 39.99px;
+    text-align: left;
+    margin-bottom: 4px;
+  }
+
+  .biography .rightside p {
+    /* font-family: Lato; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    margin: 5%;
+  }
+  .biography .rightside .button {
+    margin: 5% 0%;
+  }
+}
