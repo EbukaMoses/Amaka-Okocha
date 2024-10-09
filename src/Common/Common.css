@@ -76,13 +76,13 @@
 }
 
 /* --------------------MEDIA QUERY -----------------  */
-@media screen and (min-width: 1180px) and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .navbar {
     position: relative;
     padding: 1% 10%;
   }
   .navbar .logo {
-    width: 10%;
+    width: 20%;
   }
   .navbar nav {
     width: 50%;
